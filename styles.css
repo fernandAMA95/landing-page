@@ -53,6 +53,12 @@ h1{
     margin: 0
 }
 
+h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
 .header,bottom p{
     font-size: 18px;
     color: #e5e7eb;
@@ -71,4 +77,83 @@ h1{
 
 .header.bottom p{
     margin: 0
+}
+
+.section.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    padding-bottom: 60px;
+    
+}
+
+.container .card{
+    border: 1px solid;
+    
+}
+
+.container .card img{
+    border-radius: 10px;
+}
+
+
+.section.three{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    margin: 0;
+    padding-top: 60px;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.author{
+    align-self: flex-end;
+    margin: 0;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+
+.section.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+
+.call{
+    background-color: #3882f6;
+    display: flex;
+    flex: 1;
+}
+
+.call.left{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: #3882f6;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 25px;
+    color: #e5e7eb;
+    
 }

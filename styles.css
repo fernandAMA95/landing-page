@@ -10,7 +10,7 @@ body{
 }
 
 img{
-    width: auto;
+    width: 200px;
     height: 200px;
 }
 
@@ -59,6 +59,10 @@ h2{
     color: #1F2937;
 }
 
+h3{
+    margin: 0;
+}
+
 .header,bottom p{
     font-size: 18px;
     color: #e5e7eb;
@@ -75,10 +79,6 @@ h2{
     align-items: center
 }
 
-.header.bottom p{
-    margin: 0
-}
-
 .section.two{
     display: flex;
     flex-direction: column;
@@ -90,12 +90,7 @@ h2{
     display: flex;
     text-align: center;
     padding-bottom: 60px;
-    
-}
-
-.container .card{
-    border: 1px solid;
-    
+    gap: 20px
 }
 
 .container .card img{
@@ -136,16 +131,35 @@ h2{
     background-color: #3882f6;
     display: flex;
     flex: 1;
+    padding: 10px;
+    color: #f9faf8;
+    border-radius: 5px;
 }
 
 .call.left{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    flex: 2;
+    padding-left: 40px
+}
+
+.button{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
     background-color: #3882f6;
-    
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 8px;
+}
+
+.call button{
+    border: 1px solid #f9faf8;
 }
 
 footer{

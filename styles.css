@@ -43,12 +43,14 @@ ul{
 
 .header.bottom{
     display: flex;
+    padding: 60px 0
 }
 
 h1{
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    margin: 0
 }
 
 .header,bottom p{
@@ -65,4 +67,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center
+}
+
+.header.bottom p{
+    margin: 0
 }
